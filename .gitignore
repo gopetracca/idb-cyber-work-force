@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+# Evidence may contain sensitive data; keep out of git unless explicitly approved
+evidence/artifacts/*
+evidence/logs/*
+!evidence/**/.gitkeep
